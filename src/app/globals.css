@@ -65,7 +65,13 @@
     --ring: 212.7 26.8% 83.9%;
   }
 }
-
+body {
+  margin: 0;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
 @layer base {
   * {
     @apply border-border;
