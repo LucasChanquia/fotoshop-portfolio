@@ -21,7 +21,7 @@ export function NavComponent() {
           <div>
             <ul>
               {list?.map(({ id, name, href }) => (
-                <Link href={href} key={id}>
+                <Link href={href} key={id} className="link">
                   <li>{name}</li>
                 </Link>
               ))}

@@ -7,11 +7,11 @@ export const list = [
   {
     id: 2,
     name: "Productos",
-    href: "products"
+    href: "/productos"
   },
   {
     id: 3,
     name: "Servicios",
-    href: "services"
+    href: "/services"
   },
 ];
